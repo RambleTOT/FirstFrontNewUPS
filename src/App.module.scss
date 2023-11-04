@@ -1,0 +1,26 @@
+.pageWrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 15px;
+  @media all and (max-width: 650px) {
+  }
+
+  .mainLabel {
+    max-width: 400px;
+    max-height: 70px;
+    margin-bottom: 75px;
+
+    @media all and (max-width: 650px) {
+    }
+
+    @media all and (max-width: 420px) {
+      width: 189px;
+      height: 34px;
+    }
+  }
+}
